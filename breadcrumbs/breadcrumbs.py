@@ -1,6 +1,6 @@
 # Florian Bäuerle <florian.bae@gmail.com>
 # fubar.ath.cx
-# License: CC-BY-SA
+# License: MIT
 # Tested and working on Python 2.7.3
 # Installation: move into plugins directory and add "breadcrumbs" to py["load_plugins"]
 # add it to your flavour with $(breadcrumbs)
@@ -17,7 +17,7 @@
 		and the tags-Plugin. The 0 or 1 in the dict tells the Plugin to
 		use and entry-Title for the breadcrumb, when available.
 		If only one Article is tagged with a certain keyword, you may
-		not want to show this Articles title as Breadcrum, so you
+		not want to show this Articles title as Breadcrumb, so you
 		suppress the title with the 0.
 		The Number is followed by a comma and the desired Label.
 """
@@ -25,11 +25,11 @@
 __author__ = "Florian Bäuerle"
 __email__ = "florian.bae@gmail.com"
 __version__ = "2012-05-27"
-__url__ = "http://fubar.ath.cx/"
+__url__ = "http://fubar.ath.cx/weblog/Internet/breadcrumbs-fuer-google-und-co.html"
 __description__ = "Breadcrumb navigation"
 __category__ = "navigation"
-__license__ = "CC-BY-SA"
-__registrytags__ = "1.5"
+__license__ = "MIT"
+__registrytags__ = "1.5.2"
 
 
 def verify_installation(request):
