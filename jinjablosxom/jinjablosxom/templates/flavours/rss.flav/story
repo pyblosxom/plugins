@@ -1,0 +1,7 @@
+<item>
+  <title>{{ entry.title }}</title>
+  <link>{{ base_url }}/{{ urlencode(entry.file_path }}).{{ default_flavour }}</link>
+  <description>
+    {{- entry.body -}}
+  </description>
+</item>

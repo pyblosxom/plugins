@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PyBlosxom encountered an error</title>
+  </head>
+  <body>
+   {% for entry, template in entry_templates %}
+      {% include template %}
+   {% endfor %}
+  </body>
+</html>
+  

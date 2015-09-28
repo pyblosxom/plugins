@@ -1,0 +1,6 @@
+<div class="pyblosxom_error">
+  <h1>{{ entry.title }}</h1>
+  <p>
+    <font color="#ff0000">{{ body }}</font>
+  </p>
+</div>

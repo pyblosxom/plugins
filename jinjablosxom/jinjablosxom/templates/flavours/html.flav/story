@@ -1,0 +1,9 @@
+<h3><a name="{{ entry.fn }}">{{ entry.title }}</a></h3>
+<div class="blosxomStory">
+  {{ entry.body.decode('utf-8')|safe }}
+  <p>
+    posted at: {{ entry.ti }} |
+    path: <a href="{{ entry.base_url }}/{{ urlencode(entry.absolute_path) }}" title="path">/{{ entry.absolute_path }}</a> |
+    <a href="{{ entry.base_url }}/{{ urlencode(entry.file_path) }}.{{ entry.flavour }}">permanent link to this entry</a>
+  </p>
+</div>

@@ -1,0 +1,10 @@
+<item>
+  <title>{{ entry.title }}</title>
+  <guid isPermaLink="false">{{ entry.file_path }}</guid>
+  <link>{{ base_url }}/{{ urlencode(entry.file_path) }}.{{ default_flavour }}</link>
+  <description>
+    {{- entry.body -}}
+  </description>
+  <category domain="{{ entry.base_url }}">{{ entry.path }}</category>
+  <pubDate>{{ entry.rfc822date }}</pubDate>
+</item>

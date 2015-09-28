@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {# The point of all this is to avoid collisions with other definitions of content, etc #}
+  {% block flavour_content %}{% endblock %}
+{% endblock %}

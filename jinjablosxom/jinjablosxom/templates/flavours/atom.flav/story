@@ -1,0 +1,11 @@
+<entry>
+  <title type="html">{{ entry.title }}</title>
+  <category term="{{ urlencode(entry.path) }}" />
+  <id>{{ entry.base_url }}/{{ entry.yr }}/{{ entry.mo_num }}/{{ entry.da }}/{{ entry.fn }}</id>
+  <updated>{{ entry.w3cdate }}</updated>
+  <published>{{ entry.w3cdate }}</published>
+  <link rel="alternate" type="text/html" href="{{ base_url }}/{{ urlencode(entry.file_path) }}.{{ default_flavour }}" />
+  <content type="html">
+    {{ entry.body }}
+  </content>
+</entry>

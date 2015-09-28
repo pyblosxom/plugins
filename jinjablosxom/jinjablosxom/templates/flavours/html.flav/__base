@@ -1,0 +1,7 @@
+{% extends "flavours/html.flav/flavor_base.html" %}
+
+{% block flavour_content %}
+  {% for entry, template in entry_templates %}
+    {% include template %}
+  {% endfor %}
+{% endblock flavour_content %}

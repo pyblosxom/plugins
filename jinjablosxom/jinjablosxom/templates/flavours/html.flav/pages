@@ -1,0 +1,3 @@
+<div class="blosxomPage">
+  {{ entry.body.decode('utf-8')|safe }}
+</div>
